@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta http-equiv="Content-Type" content="text/html;">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" /> 
+  <title>Installation for Internal Testing</title>
+  <style type="text/css">
+  
+    body {
+      background-color: rgb(187, 5, 5);
+      font-family: 'Helvetica Neue', Helvetica, Roboto, Arial, sans-serif;
+
+      margin: 20px 40px;
+      color: white;
+    }
+
+	table {
+		width: 100%;
+	}
+	
+	.caption {
+		text-align: right;
+		width: 40%;
+		color: white;
+		font-size:70%;
+		padding-right: 10px;
+		font-weight: 200;
+	}
+	
+	#action {
+		padding-top: 40px;
+		text-align: center;
+	}
+	
+	#downloadButton {
+		text-align: center;
+		border: 1px solid lightgrey;
+		border-radius: 8px;
+		padding: 8px;
+		width: 60%;
+		margin-left: 20%;
+	}
+	
+	#downloadButton a:any-link {
+		text-decoration: none;
+		color: white;
+	}
+	
+	#header0, #appInfo {
+		border-bottom: 1px solid grey;
+		padding-top: 20px;
+	}
+	
+	#appInfo {
+		padding-top: 20px;
+		padding-bottom: 20px;
+	}
+	#header1 {
+		margin: 0;
+		text-align: center;
+		font-size: 150%;
+		font-style: normal;
+		font-weight: 100;
+		letter-spacing: 0.08em;
+	}
+	
+	#header2 {
+		margin: 0;
+		text-align: center;
+		font-size: 100%;
+		font-style: normal;
+		font-weight: 100;
+		letter-spacing: 0.01em;
+		padding-bottom: 20px;
+	}	
+	
+	#footer {
+		width: 100%;
+		margin-top: 80px;
+		font-size: 60%;
+		font-weight: 800;
+		letter-spacing: 0.1em;
+		border-right: 1px solid grey;
+		border-left: 1px solid grey;
+	}
+	
+	#icon {
+		text-align: center;
+	}
+	
+	#footer {
+		text-align: center;
+	}
+	
+  </style>
+</head>
+<body>
+
+<div id='header0'>
+	<p id='header1'>Installation on iPhone</p>
+	<p id='header2'>(for Internal Testing only)</p>
+</div>
+
+<div id='appInfo'>
+	<div id="icon"><img width="60px" src="./CarepathAppIcon.png" /></div>
+	<table>
+		<tr><td class='caption'>App Name</td><td class='value'>Carepath (Production)</td></tr>
+		<tr><td class='caption'>Version</td><td class='value'>1.0</td></tr>
+		<tr><td class='caption'>Build</td><td class='value'>1.0.99</td></tr>
+		<tr><td class='caption'>Release Date</td><td class='value'>20 Sep 2016</td></tr>
+		<tr><td class='caption'>Download Size</td><td class='value'>24 MB</td></tr>
+	</table>
+</div>
+
+<div id='action'>
+	<p id='downloadButton'>
+      <a href="itms-services://?action=download-manifest&url=https://s3.amazonaws.com/mocarepath/production/Carepath.plist">
+        Download & Install
+      </a>
+    </p>
+</div>
+
+<div id='footer'>
+	App Developed by:<br/><img width="120px" src="./Mobiuso-Logo-256x64.png" />
+</div>
+
+</body>
+</html>
